@@ -10,7 +10,7 @@ x-var:
 services:
 
   database:
-    image: postgres:16.4
+    image: postgres:16.7
     container_name: database
     environment:
       POSTGRES_HOST: database
